@@ -21,6 +21,7 @@
 		AC07F12E1BD7509E005B86EF /* Sale.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC07F12D1BD7509E005B86EF /* Sale.swift */; };
 		AC8EECA01CB0A8DA00D0419A /* AddBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EEC9F1CB0A8DA00D0419A /* AddBookViewController.swift */; };
 		AC8EECA21CB0B19500D0419A /* DismissSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8EECA11CB0B19500D0419A /* DismissSegue.swift */; };
+		AC8EECD81CB1EA3800D0419A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = AC8EECD71CB1EA3800D0419A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		AC07F12D1BD7509E005B86EF /* Sale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sale.swift; sourceTree = "<group>"; };
 		AC8EEC9F1CB0A8DA00D0419A /* AddBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBookViewController.swift; sourceTree = "<group>"; };
 		AC8EECA11CB0B19500D0419A /* DismissSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissSegue.swift; sourceTree = "<group>"; };
+		AC8EECD71CB1EA3800D0419A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 		AC07F0EB1BD74001005B86EF = {
 			isa = PBXGroup;
 			children = (
+				AC8EECD71CB1EA3800D0419A /* README.md */,
 				AC8EEC9C1CB09C5300D0419A /* View */,
 				AC8EEC9B1CB09C4200D0419A /* Controller */,
 				AC8EEC9A1CB09C2200D0419A /* Model */,
@@ -303,6 +306,7 @@
 			files = (
 				AC07F0FC1BD74001005B86EF /* DetailViewController.swift in Sources */,
 				AC8EECA01CB0A8DA00D0419A /* AddBookViewController.swift in Sources */,
+				AC8EECD81CB1EA3800D0419A /* README.md in Sources */,
 				AC07F0FA1BD74001005B86EF /* MasterViewController.swift in Sources */,
 				AC07F12C1BD75072005B86EF /* Book.swift in Sources */,
 				AC07F0F81BD74001005B86EF /* AppDelegate.swift in Sources */,
