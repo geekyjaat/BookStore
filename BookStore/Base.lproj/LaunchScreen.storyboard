@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -19,35 +23,31 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The BookStore" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fwj-kR-u8C">
                                 <rect key="frame" x="20" y="280" width="560" height="40"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="L0J-8N-bhW"/>
-                                </constraints>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
                                 <nil key="highlightedColor"/>
-                                <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="shadowColor" red="0.66666668653488159" green="0.66666668653488159" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <size key="shadowOffset" width="1" height="1"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright (c) 2016 Orleans Barley Inc." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0S5-Q6-sY7">
                                 <rect key="frame" x="20" y="560" width="560" height="20"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="20" id="jjU-HC-HaR"/>
+                                    <constraint firstAttribute="height" constant="20" id="Nv1-qi-etQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="0S5-Q6-sY7" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="7Hv-6R-ZAQ"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="0S5-Q6-sY7" secondAttribute="bottom" constant="20" id="I8g-MJ-Pmb"/>
-                            <constraint firstItem="Fwj-kR-u8C" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Q08-gO-n3b"/>
-                            <constraint firstItem="Fwj-kR-u8C" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="ReI-HS-JKD"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="0S5-Q6-sY7" secondAttribute="trailing" id="g39-K1-FjF"/>
-                            <constraint firstItem="Fwj-kR-u8C" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="gbg-NI-ONq"/>
-                            <constraint firstItem="0S5-Q6-sY7" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="v1d-XX-rHf"/>
-                            <constraint firstItem="Fwj-kR-u8C" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="xRI-W6-dEb"/>
+                            <constraint firstItem="Fwj-kR-u8C" firstAttribute="leading" secondItem="0S5-Q6-sY7" secondAttribute="leading" id="1W7-5u-RRq"/>
+                            <constraint firstItem="Fwj-kR-u8C" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="260" id="4Aw-2m-UBP"/>
+                            <constraint firstItem="Fwj-kR-u8C" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Jpc-Ha-ZRP"/>
+                            <constraint firstItem="Fwj-kR-u8C" firstAttribute="trailing" secondItem="0S5-Q6-sY7" secondAttribute="trailing" id="RUQ-xR-Nsi"/>
+                            <constraint firstAttribute="bottom" secondItem="0S5-Q6-sY7" secondAttribute="bottom" constant="20" symbolic="YES" id="ej6-c9-glZ"/>
+                            <constraint firstItem="Fwj-kR-u8C" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="lTo-V2-N52"/>
+                            <constraint firstItem="Fwj-kR-u8C" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="wpQ-ci-wC8"/>
                         </constraints>
                     </view>
                     <nil key="simulatedStatusBarMetrics"/>

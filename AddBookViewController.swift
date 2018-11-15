@@ -25,18 +25,12 @@ class AddBookViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "dismissAndSave" {
             let book = Book(title:bookTitle.text!, author: bookAuthor.text!, description: bookDesc.text!)
-            BookStore.sharedInstance.addBook(book)
+            BookStore.sharedInstance.addBook(book: book)
         }
     }
-    
-    
-
-//    // MARK: - Navigation
-//
-//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-//
-//    }
 }

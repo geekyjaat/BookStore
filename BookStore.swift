@@ -18,7 +18,7 @@ class BookStore {
     var phoneNumber = ""
     var logo = ""
     var theBookStore: [Book] = []
-    var prefs = NSUserDefaults.standardUserDefaults()
+    var prefs = UserDefaults.init()
     
     init(){
         var newBook = Book()
@@ -72,7 +72,7 @@ class BookStore {
     }
     
     func removeBook(index:Int) {
-        theBookStore.removeAtIndex(index)
+        theBookStore.remove(at: index)
     }
     
     func book(index:Int) -> Book{
@@ -80,7 +80,7 @@ class BookStore {
     }
     
     func sort() {
-        theBookStore.sortInPlace(alphabetOrder)
+        theBookStore.sort(by: alphabetOrder)
     }
     
     
